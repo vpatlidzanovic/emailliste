@@ -17,6 +17,13 @@ public class Schüler implements Comparable<Schüler>, Serializable {
 	private String nachname;
 	private String gruppe;
 	
+	/**
+	 * Initalisiert alle Attribute.
+	 * @param katalognummer die Katalognummer, die gespeichert werden soll
+	 * @param vorname der Vorname, der gespeichert werden soll
+	 * @param nachname der Nachname, der gespeichert werden soll
+	 * @param gruppe die Gruppe, die gespeichert werden soll
+	 */
 	public Schüler(int katalognummer, String vorname, String nachname, String gruppe) {
 		this.katalognummer = katalognummer;
 		this.vorname = vorname;
